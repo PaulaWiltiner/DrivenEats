@@ -1,4 +1,4 @@
-# DrivenEats
+# projeto3-driveneats
 
 Meu primeiro projeto usando JavaScript na Driven será a implementação do site mobile do DrivenEats, um restaurante especial que entrega seu pedido em 6 minutos.
 
