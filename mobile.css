@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topo {
+    background-color: #CF2B2B;
+    width: 100%;
+    height: 92px;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    padding: 20px;
+}
+
+.titulo {
+    width: 100%;
+    height: 60px;
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Righteous', cursive;
+}
+
+.titulo h1 {
+    font-size: 44px;
+}
+
+.titulo h2 {
+    font-size: 18px;
+}
+
+.container {
+    background-color: #f12ed7;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: space-around;
+    margin-top: 92px;
+    margin-bottom:92px;
+}
+
+
+.pratos {
+    background-color: #16cc10;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    margin-top: 30px;
+}
+
+.bebida {
+    background-color: #10cc74;
+    width: 100%;
+    height:300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    margin-top: 30px;
+}
+
+.sobremesa {
+    background-color: #8710cc;
+    width: 100%;
+    height:300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    margin-top: 30px;
+}
+
+
+.titulocontainer {
+    background-color: #20ecec;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px ;
+    margin-left: 20px;
+}
+
+.titulocontainer h3 {
+    font-family: 'Righteous', cursive;
+    color: #333333;
+    font-size: 26px;
+}
+
+.cards {
+    background-color: #e2730b;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    width: 100%;
+    height: 210px;
+
+}
+
+.opcao {
+    background-color: #ec203b;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 180px;
+    height:200px;
+    margin-left: 20px;
+    border-radius: 12px;
+}
+
+.nome {
+    background-color: #20ec9e;
+    width: 180px;
+    height: 30%;
+}
+
+.detalhes {
+    background-color: #d7ec20;
+    width: 180px;
+    height: 30%;
+}
+
+.fecharpedido {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 92px;
+    padding: 15px; 
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+}
+
+.textopedido {
+    background-color:#CBCBCB;
+    border-radius: 30px;
+    height: 60px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.textopedido {
+    font-size:20px;
+    text-align: center;
+}
+
