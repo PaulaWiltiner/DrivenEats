@@ -4,9 +4,11 @@ function botaoPedido() {
     if (document.querySelector(".pratoselecionado")!==null && document.querySelector(".bebidaselecionada")!==null && document.querySelector(".sobremesaselecionada")!==null){
         botao.querySelector("h2").innerText= 'Fechar pedido';
         botao.classList.add("verdebotao");
+        botao.disabled = false;
     } else {
         botao.querySelector("h2").innerText= 'Selecione os 3 itens para fechar o pedido';
         botao.classList.remove("verdebotao");
+        botao.disabled = true;
     }
 }
 
@@ -69,5 +71,5 @@ function selecionarSobremesa(opcao) {
 }
 
 function fazerPedido(){
-    console.log("hello")
+    window.open(` https://web.whatsapp.com/send?phone=5575988164646&text=${encodeURIComponent("Olá, gostaria de fazer o pedido: \n - Prato: Frango Yin Yang \n - Bebida: Coquinha Gelada \n - Sobremesa: Pudim \n Total: R$ 27.70")}`);
 }
