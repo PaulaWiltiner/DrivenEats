@@ -71,5 +71,12 @@ function selecionarSobremesa(opcao) {
 }
 
 function fazerPedido(){
-    window.open(` https://web.whatsapp.com/send?phone=5575988164646&text=${encodeURIComponent("Olá, gostaria de fazer o pedido: \n - Prato: Frango Yin Yang \n - Bebida: Coquinha Gelada \n - Sobremesa: Pudim \n Total: R$ 27.70")}`);
+
+    let nome =prompt("Por favor, digite o seu nome:");
+    let endereco = prompt("Por favor, digite o seu endereço:");
+    if (nome!=="" && endereco !==""){
+        const padrao = "Olá, gostaria de fazer o pedido: \n - Prato: Frango Yin Yang \n - Bebida: Coquinha Gelada \n - Sobremesa: Pudim \n Total: R$ 27.70";
+        const texto= padrao + '\n\n' + "Nome: " + nome + '\n' + "Endereço: " + endereco;
+        window.open(` https://web.whatsapp.com/send?phone=5575988164646&text=${encodeURIComponent(texto)}`);
+    }
 }
