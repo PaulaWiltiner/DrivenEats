@@ -3,11 +3,10 @@
 }
 
 body {
-    background-color: #E5E5E5;
+    background-color: #f0efef;
     display: flex;
     flex-wrap: wrap;
     flex-direction:column;
-    font-family: 'Roboto', sans-serif;
 }
 
 .topo {
@@ -21,8 +20,6 @@ body {
 }
 
 .titulo {
-    width: 100%;
-    height: 60px;
     text-align: left;
     color: #ffffff;
     font-family: 'Righteous', cursive;
@@ -30,29 +27,26 @@ body {
 
 .titulo h1 {
     font-size: 44px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .titulo h2 {
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
-    background-color: #f12ed7;
     width: 100%;
-    height: 1000px;
     display: flex;
     flex-wrap: wrap;
     flex-direction:column;
-    justify-content: space-around;
     margin-top: 92px;
     margin-bottom:92px;
 }
 
 
 .pratos {
-    background-color: #16cc10;
     width: 100%;
-    height: 300px;
     display: flex;
     flex-wrap: wrap;
     flex-direction:column;
@@ -60,9 +54,7 @@ body {
 }
 
 .bebida {
-    background-color: #10cc74;
     width: 100%;
-    height:300px;
     display: flex;
     flex-wrap: wrap;
     flex-direction:column;
@@ -70,9 +62,7 @@ body {
 }
 
 .sobremesa {
-    background-color: #8710cc;
     width: 100%;
-    height:300px;
     display: flex;
     flex-wrap: wrap;
     flex-direction:column;
@@ -81,59 +71,84 @@ body {
 
 
 .titulocontainer {
-    background-color: #20ecec;
     width: 300px;
     height: 30px;
     margin-bottom: 20px ;
-    margin-left: 20px;
+    margin-left: 20px;  
 }
 
 .titulocontainer h3 {
     font-family: 'Righteous', cursive;
     color: #333333;
     font-size: 26px;
+    text-align: left;
 }
 
 .cards {
-    background-color: #e2730b;
     overflow-x: scroll;
     display: flex;
     flex-direction:row;
     align-items: center;
     width: 100%;
-    height: 210px;
+    height: 230px;
 
 }
 
 .opcao {
-    background-color: #ec203b;
+    background-color: #ffffff;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around;
-    width: 180px;
-    height:200px;
+    width: 172px;
     margin-left: 20px;
     border-radius: 12px;
+    padding: 15px;
+}
+
+.opcao img {
+    border-radius: 12px;
+    width: 144px;
+    height:87px;
+}
+
+.opcao h3 {
+    font-size: 17px;
+    color: #333333;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.opcao h4 {
+    color:#000000;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.opcao p {
+    color:#A6A6A6;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 18px;
 }
 
 .nome {
-    background-color: #20ec9e;
-    width: 180px;
-    height: 30%;
+    margin-top: 12px;
 }
 
 .detalhes {
-    background-color: #d7ec20;
-    width: 180px;
-    height: 30%;
+    margin-top: 12px;
+}
+
+.preco {
+    margin-top: 12px;
 }
 
 .fecharpedido {
     background-color: #FFFFFF;
     width: 100%;
     height: 92px;
-    padding: 15px; 
+    padding: 16px; 
     position: fixed;
     bottom: 0px;
     left:0px;
@@ -146,12 +161,14 @@ body {
     color: #ffffff;
     display: flex;
     align-items: center;
-    padding-left: 70px;
-    padding-right: 70px;
 }
 
-.textopedido {
+.textopedido h2 {
     font-size:20px;
     text-align: center;
+    line-height: 22px;
+    margin-left: 22%;
+    margin-right: 22%;
+    font-family: 'Roboto', sans-serif;
 }
 
