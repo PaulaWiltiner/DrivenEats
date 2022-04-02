@@ -1,3 +1,16 @@
+
+function botaoPedido() {
+    const botao = document.querySelector("button");
+    if (document.querySelector(".pratoselecionado")!==null && document.querySelector(".bebidaselecionada")!==null && document.querySelector(".sobremesaselecionada")!==null){
+        botao.querySelector("h2").innerText= 'Fechar pedido';
+        botao.classList.add("verdebotao");
+    } else {
+        botao.querySelector("h2").innerText= 'Selecione os 3 itens para fechar o pedido';
+        botao.classList.remove("verdebotao");
+    }
+}
+
+
 function selecionarPrato(opcao) {
     const procura = document.querySelector(".pratoselecionado");
     const verde = document.querySelector(".verdeprato");
@@ -13,6 +26,7 @@ function selecionarPrato(opcao) {
             opcao.classList.toggle("pratoselecionado");
             icone.classList.toggle("verdeprato");
         }
+        botaoPedido()
         
 }
 
@@ -31,6 +45,7 @@ function selecionarBebida(opcao) {
         opcao.classList.toggle("bebidaselecionada");
         icone.classList.toggle("verdebebida"); 
     }
+    botaoPedido()
        
 }
 
@@ -49,5 +64,10 @@ function selecionarSobremesa(opcao) {
         opcao.classList.toggle("sobremesaselecionada");
         icone.classList.toggle("verdesobremesa");
     }
+    botaoPedido()
        
+}
+
+function fazerPedido(){
+    console.log("hello")
 }

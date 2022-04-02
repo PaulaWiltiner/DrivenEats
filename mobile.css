@@ -221,14 +221,22 @@ ion-icon {
     color: #ffffff;
     display: flex;
     align-items: center;
+    text-align: center;
+    border:0px;
+    width: 100%;
 }
+
 
 .textopedido h2 {
     font-size:20px;
-    text-align: center;
     line-height: 22px;
-    margin-left: 22%;
-    margin-right: 22%;
+    width:200px;
+    margin: auto;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.verdebotao {
+    background-color: #50D074;
 }
 
