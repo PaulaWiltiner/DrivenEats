@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+.checkaviso {
+    background-color: #50D074;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size:12px;
+}
 body {
     background-color: #f8f6f6;
     display: flex;
@@ -158,13 +165,7 @@ body {
     color: #50D074;
 }
 
-.check {
-    position: absolute;
-	right: 10px;
-	bottom: 10px;
-    font-size: 20px;
-}
-
+s
 ion-icon {
     color:#ffffff;
 }
