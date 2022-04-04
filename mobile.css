@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.checkaviso {
+.aviso {
     background-color: #50D074;
     color: #ffffff;
     font-weight: bold;
@@ -165,11 +165,17 @@ body {
     color: #50D074;
 }
 
-s
+
 ion-icon {
     color:#ffffff;
 }
 
+.check {
+    position: absolute;
+    bottom: 5px;
+    right: 4px;
+    font-size:20px;
+}
 .cards img {
     border-radius: 12px;
     width: 144px;
