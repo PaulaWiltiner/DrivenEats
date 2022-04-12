@@ -1,4 +1,5 @@
 
+
 function botaoPedido() {
     const botao = document.querySelector("button");
     if (document.querySelector(".pratoselecionado")!==null && document.querySelector(".bebidaselecionada")!==null && document.querySelector(".sobremesaselecionada")!==null){
@@ -10,6 +11,7 @@ function botaoPedido() {
         botao.classList.remove("verdebotao");
         botao.disabled = true;
     }
+    //console.log(document.querySelector(".pratoselecionado").querySelector(".nome").querySelector("h3").innerText)
 }
 
 
